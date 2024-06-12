@@ -1,6 +1,14 @@
 <template>
     <div class="login-view">
-        
+        <div class="login-box">
+            <div class="left">
+                <el-image src="https://th.bing.com/th/id/OIP.vnHfoJM5ndj_kLA5XbYhVgHaKe?rs=1&pid=ImgDetMain"
+                    fit="cover" />
+            </div>
+            <div class="right">
+                <el-form></el-form>
+            </div>
+        </div>
     </div>
 </template>
 

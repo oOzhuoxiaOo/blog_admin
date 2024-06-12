@@ -10,6 +10,7 @@ declare module 'vue' {
     ElButton: typeof import('element-plus/es')['ElButton']
     ElCard: typeof import('element-plus/es')['ElCard']
     ElCol: typeof import('element-plus/es')['ElCol']
+    ElForm: typeof import('element-plus/es')['ElForm']
     ElImage: typeof import('element-plus/es')['ElImage']
     ElImg: typeof import('element-plus/es')['ElImg']
     ElMain: typeof import('element-plus/es')['ElMain']
