@@ -1,7 +1,14 @@
-@import url("css/base.css");
-@import url("css/var.css");
+@import url("css/init_base.scss");
+@import url("css/init_theme.scss");
+@import url("css/init_class.scss");
 
 :root {
     font-size: 16px;
 }
+
+.body {
+    background-color: var(--b-c-3);
+    color: var(--t-c-3);
+}
+
 

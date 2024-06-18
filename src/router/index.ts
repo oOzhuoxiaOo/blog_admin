@@ -10,17 +10,17 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      redirect: "admin"
+      redirect: "login"
     },
     {
       path: '/admin',
       name: 'admin',
       component: AdminView,
-      children:[
+      children: [
         {
-          path:"chartview",
-          name:"chartview",
-          component:ChartView
+          path: "chartview",
+          name: "chartview",
+          component: ChartView
         }
       ]
     },
@@ -30,7 +30,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component:LoginView
+      component: LoginView
     },
     {
       path: '/notfound',
@@ -38,7 +38,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component:NotFound
+      component: NotFound
     }
   ]
 })
